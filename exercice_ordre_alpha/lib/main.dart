@@ -97,8 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
       showDialog(
         context: context,
         builder: (_) => AlertDialog(
-          title: const Text("Bravo !"),
-          content: const Text("La liste est dans l'ordre alphabétique."),
+          title: const Text("Liste en orde"),
           actions: [
             TextButton(
               onPressed: () {
